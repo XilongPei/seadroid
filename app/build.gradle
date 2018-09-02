@@ -7,8 +7,8 @@ android {
         applicationId 'com.seafile.seadroid2'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 81
-        versionName "2.2.6"
+        versionCode 82
+        versionName "2.2.7"
         multiDexEnabled true
         resValue "string", "authorities", applicationId + '.cameraupload.provider'
         resValue "string", "account_type", "com.seafile.seadroid2.account.api2"
@@ -109,6 +109,12 @@ android {
         implementation 'com.shuyu:gsyVideoPlayer-java:2.1.0'
         implementation 'com.shuyu:gsyVideoPlayer-ex_so:2.1.0'
         implementation 'com.squareup.okhttp3:okhttp:3.9.1'
+
+        implementation 'com.yydcdut:markdown-processor:0.1.3'
+        implementation 'com.yydcdut:rxmarkdown-wrapper:0.1.3'
+        implementation 'io.reactivex:rxandroid:1.2.0'
+        implementation 'io.reactivex:rxjava:1.1.5'
+        implementation 'ren.qinc.edit:lib:0.0.5'
     }
 }
 
